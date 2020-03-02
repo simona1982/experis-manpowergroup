@@ -224,7 +224,7 @@ export default {
     userSelected: {},
     fecha_entrevista: new Date().toISOString().substr(0, 10),
     hora_entrevista: null,
-    items: ["Presencial", "Telefónica", "Remota"],
+    items: ["Presencial", "Telefonica", "Remota"],
     type_select: null,
     error: false,
     dialog: false
@@ -262,6 +262,8 @@ export default {
       this.$store.dispatch("saveInterview", {
         interview: this.userSelected
       });
+
+      this.$router.push({ path: "/dashboard/interviews" });
 
       console.log(this.userSelected);
     }

@@ -16,7 +16,10 @@
 import CategoryList from "./../components/categoy/CategoryList";
 import UserList from "./../components/user/UserList";
 export default {
-  components: { CategoryList, UserList }
+  components: { CategoryList, UserList },
+  created() {
+    this.$store.dispatch("noUsers");
+  }
 };
 </script>
 

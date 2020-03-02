@@ -1,29 +1,26 @@
 # experis-manpowergroup
 
+```
+npm install
+```
+
 ## Project setup
+
 ```
-yarn install
+npm run start
 ```
 
-### Compiles and hot-reloads for development
-```
-yarn run serve
-```
+Este comando levante el cliente y el servidor
 
-### Compiles and minifies for production
-```
-yarn run build
-```
+cliente: http://localhost:8080/ Cliente desarrollado con Vue
+servidor: http://localhost:3000/ Backend Nodejs express
 
-### Run your tests
-```
-yarn run test
-```
+## claves de acceso
 
-### Lints and fixes files
 ```
-yarn run lint
-```
+"email": "greis.romero@experis.co",
+"password": "experis"
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+"email": "monkey.velasquez.1982@gmail.com",
+"password": "experis"
+```
