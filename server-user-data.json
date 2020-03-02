@@ -1,0 +1,14 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "email": "monkey.velasquez.1982@gmail.com",
+      "password": "experis"
+    },
+    {
+      "id": 2,
+      "email": "greis.romero@experis.co",
+      "password": "experis"
+    }
+  ]
+}

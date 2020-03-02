@@ -1,0 +1,23 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "name": "Microsoft .Net",
+      "technologies": [
+        {
+          "id": 11,
+          "name": "Especial"
+        },
+        {
+          "id": 12,
+          "name": "Corrientazo"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "email": "Oracle Java",
+      "technologies": []
+    }
+  ]
+}
